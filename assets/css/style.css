@@ -174,7 +174,7 @@ body {
 /* MEDIA QUERY */
 /* Width at 980px and below */
 @media screen and (max-width: 980px) {
-    body, #About, .content, .content-inside {
+    body, #About, #Portfolio, #Contact, .content, .content-inside {
       /* Body */
       padding: 10px 5px 10px 0px;
       width: 980px;
@@ -199,6 +199,7 @@ body {
         background: #fff;
         border-color: #ccc;
         margin: 0px 20px 0px 0px;
+    }
     h2 {
         font-family: 'Georgia', Times, Times New Roman, serif;
          color: #fff;
@@ -249,11 +250,12 @@ body {
         border-top: #4aaaa5 5px solid;
         text-align: center;
         }
-}
+    }
+
   
 @media screen and (max-width: 768px) {
   
-    body, #About, .content, .content-inside {
+    body, #About, #Portfolio, #Contact, .content, .content-inside {
         width: 768px;
       padding: 10px;
       margin: 0 0 0 -7px;
@@ -308,6 +310,70 @@ body {
         background-color: #4aaaa5;
         
     }
+    section {
+        margin: 0 0 0 5px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+         background: #fff;
+     }
+    .container2 {
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .portfolio {
+        margin: 0px 0px 0px 0px;
+        padding: 10px;
+        }
+        .text-block {
+            position: absolute;
+            margin: 145px 0px 0px 13px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .text-block2 {
+            position: absolute;
+           margin: 145px 0px 0px 217px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 70px;
+        }
+        .text-block3 {
+            position: absolute;
+           margin: 145px 0px 0px 421px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 84px;
+            padding-right: 70px;
+        }
+        .text-block4 {
+            position: absolute;
+           margin: 356px 0px 0px 13px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 70px;
+        }
+        .text-block5 {
+            position: absolute;
+           margin: 356px 0px 0px 217px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 63px;
+            padding-right: 70px;
+        }
+        .text-block6 {
+            position: absolute;
+           margin: 356px 0px 0px 421px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
     .footer {
         background: #666;
         height: 50px;
@@ -319,11 +385,11 @@ body {
         padding: 0px;
         border-top: #4aaaa5 5px solid;
         text-align: center;
-  }
+            }
 }
 @media screen and (max-width: 640px) {
   
-    body, #About, .content, .content-inside {
+    body, #About, #Portfolio, #Contact, .content, .content-inside {
         width: 640px;
       padding: 10px;
       margin: 0 0 0 -7px;
@@ -378,6 +444,72 @@ body {
         background-color: #4aaaa5;
         
     }
+    section {
+        margin: 0 0 0 5px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+         background: #fff;
+     }
+    .container2 {
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .portfolio {
+        margin: 0px 0px 0px 0px;
+        padding: 10px;
+    }
+
+        .text-block {
+            position: absolute;
+            margin: 145px 0px 0px 13px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .text-block2 {
+            position: absolute;
+           margin: 145px 0px 0px 217px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 70px;
+        }
+        .text-block3 {
+            position: absolute;
+           margin: 145px 0px 0px 421px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 84px;
+            padding-right: 70px;
+        }
+        .text-block4 {
+            position: absolute;
+           margin: 356px 0px 0px 13px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 70px;
+        }
+        .text-block5 {
+            position: absolute;
+           margin: 356px 0px 0px 217px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 63px;
+            padding-right: 70px;
+        }
+        .text-block6 {
+            position: absolute;
+           margin: 356px 0px 0px 421px;
+            background-color: #4aaaa5;
+            color: white;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
     .footer {
         background: #666;
         height: 50px;
@@ -389,7 +521,7 @@ body {
         padding: 0px;
         border-top: #4aaaa5 5px solid;
         text-align: center;
-  }
+        }
 }
 
 
@@ -397,7 +529,7 @@ body {
   /* Width at 320px and below because why not*/
   @media screen and (max-width: 320px) {
   
-    body, #About, .content, .content-inside {
+    body, #About, #Portfolio, #Contact, .content, .content-inside {
         width: 320px;
       padding: 0px;
       margin: 0px 0px 0px 5px;
@@ -463,6 +595,6 @@ body {
         padding: 0px;
         border-top: #4aaaa5 5px solid;
         text-align: center;
-  }
+        }
 }
   
